@@ -14,7 +14,7 @@
       "firstName": "Tiến",
       "lastName": "Đặng Quốc",
       "email": "tien@gmail.com",
-      "password": "t12345678",
+      "password": "t1234567",
       "phone": "0961036511",
       "token": "fdsfdsffdsfsdfsd32442432"
     },
@@ -26,24 +26,55 @@
       "password": "t1234567",
       "id": 2,
       "token": "fdsfdsffdsfsdfsd3244fdsfsd2432"
-    }
-  ],
-  "hosts": [
-    {
-      "id": 1,
-      "firstName": "Robert",
-      "lastName": "Schwartz",
-      "email": "rob23@gmail.com",
-      "password": "t12345678",
-      "phone": "0961036511"
     },
     {
-      "id": 2,
-      "firstName": "Lucy",
-      "lastName": "Ballmer",
-      "email": "lucyb56@gmail.com",
-      "password": "t12345678",
-      "phone": "0961036511"
+      "firstName": "Luong",
+      "lastName": "Viet Thang",
+      "email": "thanglv@gmail.com",
+      "phone": "0989998878",
+      "password": "t1234567",
+      "id": 3
+    }
+  ],
+  "host": [
+    {
+      "id": 1,
+      "type": "Studio",
+      "name": "The Galaxy Home",
+      "cate": "Đăt phòng nhanh",
+      "address": "Cầu Giấy, Hà Nội",
+      "square": "55m2",
+      "price": "820000",
+      "people": "5",
+      "info": "1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
+      "bedRoom": 3,
+      "img": "https://cdn.luxstay.com/users/329302/W0VeOXy7lNzUTRkl4Zb0CbAr.jpg"
+    },
+    {
+      "type": "",
+      "name": "",
+      "cate": "",
+      "address": "",
+      "square": "123",
+      "bedRoom": "123",
+      "price": "123",
+      "people": "120",
+      "info": "55 ",
+      "img": "https://cdn.luxstay.com/users/381488/uTgnZ95ZYdtZoEQ8kE-48iHF.jpeg",
+      "id": 2
+    },
+    {
+      "type": "",
+      "name": "JOI homestay",
+      "cate": "",
+      "address": "",
+      "square": "221",
+      "bedRoom": "12",
+      "price": "123123",
+      "people": "12",
+      "info": "khanhnv 1",
+      "img": "https://cdn.luxstay.com/rooms/37700/large/IMG_2698.jpg",
+      "id": 3
     }
   ],
   "rooms": [
@@ -54,215 +85,51 @@
       "content": [
         {
           "room_id": "HN-1",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
+          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
           "room_price": "850,000 đ",
-          "room_children": {
-            "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "55",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "55",
+          "room_star": "5"
         },
         {
           "room_id": "HN-2",
-          "roomName": "Hanoi Home 3",
+          "room_name": "Hanoi Home 3",
+          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
           "room_price": "690,000 đ",
-          "room_children": {
-            "room_address": "Tây Hồ, Hà Nội, Vietnam",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "45",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Tây Hồ, Hà Nội, Vietnam",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "45",
+          "room_star": "4"
         },
         {
           "room_id": "HN-3",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
+          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         },
         {
           "room_id": "HN-4",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
+          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         }
       ]
     },
@@ -273,268 +140,58 @@
       "content": [
         {
           "room_id": "HCM-1",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
           "room_price": "850,000 đ",
-          "room_children": {
-            "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "55",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "55",
+          "room_star": "5"
         },
         {
           "room_id": "HCM-2",
-          "roomName": "Hanoi Home 3",
+          "room_name": "Hanoi Home 3",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
           "room_price": "690,000 đ",
-          "room_children": {
-            "room_address": "Tây Hồ, Hà Nội, Vietnam",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "45",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Tây Hồ, Hà Nội, Vietnam",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "45",
+          "room_star": "4"
         },
         {
           "room_id": "HCM-3",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         },
         {
           "room_id": "HCM-4",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         },
         {
           "room_id": "HCM-5",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         }
       ]
     },
@@ -545,434 +202,98 @@
       "content": [
         {
           "room_id": "VT-1",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
           "room_price": "850,000 đ",
-          "room_children": {
-            "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "55",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "55",
+          "room_star": "5"
         },
         {
           "room_id": "VT-2",
-          "roomName": "Hanoi Home 3",
+          "room_name": "Hanoi Home 3",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
           "room_price": "690,000 đ",
-          "room_children": {
-            "room_address": "Tây Hồ, Hà Nội, Vietnam",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "45",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Tây Hồ, Hà Nội, Vietnam",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "45",
+          "room_star": "4"
         },
         {
           "room_id": "VT-3",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         },
         {
           "room_id": "VT-4",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         }
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "address": "Đà Lạt",
       "image_address": "https://cdn.luxstay.com/home/location/location_4_1559786177.png",
       "content": [
         {
           "room_id": "DL-1",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
           "room_price": "850,000 đ",
-          "room_children": {
-            "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "55",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "55",
+          "room_star": "5"
         },
         {
           "room_id": "DL-2",
-          "roomName": "Hanoi Home 3",
+          "room_name": "Hanoi Home 3",
           "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
           "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
           "room_price": "690,000 đ",
-          "room_children": {
-            "room_address": "Tây Hồ, Hà Nội, Vietnam",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "45",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Tây Hồ, Hà Nội, Vietnam",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "45",
+          "room_star": "4"
         },
         {
           "room_id": "DL-3",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         },
         {
           "room_id": "DL-4",
-          "roomName": "The Galaxy Home",
+          "room_name": "The Galaxy Home",
           "room_category": "Studio - 1 phòng ngủ",
           "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
           "room_price": "500,000 đ",
-          "room_children": {
-            "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-            "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-            "room_acreage": "25",
-            "room_logo": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-            "room_content": [
-              {
-                "room_content-label": "Tóm tắt về The Galaxy Home Apartment",
-                "room_content-content": [
-                  "· Vị trí rất đẹp và thuận tiện ở quận Cầu Giấy",
-                  "· Gần công viên Cầu Giấy, Lotteria, trung tâm mua sắm với môi trường ngoài trời yên tĩnh",
-                  "· Bạn hoàn toàn có thể trải nghiệm những dịch vụ cao cấp tại đây"
-                ]
-              },
-              {
-                "room_content-label": "Về không gian",
-                "room_content-content": [
-                  "· Căn hộ được thiết kế với nhiều lựa chọn bố trí hợp lý và được trang bị theo tiêu chuẩn cao cấp 4 sao với ban công riêng và cảnh quan đẹp",
-                  "· Có nhiều dịch vụ tại chỗ khác nhau như giặt ủi, dịch vụ vệ sinh, Wi-Fi miễn phí tốc độ cao, an ninh 24/7",
-                  "· Dịch vụ khách hàng đặc biệt được cung cấp"
-                ]
-              },
-              {
-                "room_content-label": "Căn hộ Deluxe 60m2 - Có ban công - Hướng nhìn thành phố",
-                "room_content-content": [
-                  "· Thang máy ra vào căn hộ với hệ thống thẻ khóa an ninh",
-                  "· Phòng khách được thiết kế theo phong cách hiện đại với ghế sofa và khu vực ăn uống riêng",
-                  "· Nhà bếp được trang bị đầy đủ với bếp điện và máy hút mùi điện, lò vi sóng, tủ lạnh, ấm điện, đồ thủy tinh, đồ sành sứ, dao kéo",
-                  "· Phòng tắm được trang bị bồn tắm dài / tắm đứng và kính riêng",
-                  "· Phòng ngủ có sẵn ga trải giường và két an toàn cá nhân trong phòng",
-                  "· Hệ thống giải trí với TV LCD và các kênh truyền hình cáp",
-                  "· Điều hòa hai chiều với bộ điều khiển nhiệt riêng",
-                  "· Căn hộ đều có tiện nghi sang trọng, điện thoại, kênh truyền hình cáp, TV màn hình phẳng, máy lạnh, khu vực phòng khách, máy giặt, tủ quần áo, giá treo quần áo, máy sấy tóc, phòng tắm, dép, vòi hoa sen, ghế sofa, sàn gỗ, tủ lạnh, lò vi sóng, đồ dùng nhà bếp, bàn ăn, khăn tắm, ga trải giường."
-                ]
-              },
-              {
-                "room_content-label": "Các dịch vụ khác",
-                "room_content-content": [
-                  "· Dịch vụ dọn phòng: 2 lần mỗi tuần",
-                  "· Dịch vụ giặt đồ",
-                  "· Bãi đỗ xe",
-                  "· Camera an ninh 24/7"
-                ]
-              }
-            ]
-          }
+          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
+          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
+          "room_acreage": "25",
+          "room_star": "4"
         }
       ]
     }
