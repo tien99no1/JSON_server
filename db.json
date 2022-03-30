@@ -39,263 +39,32 @@
   "host": [
     {
       "id": 1,
-      "type": "Studio",
-      "name": "The Galaxy Home",
-      "cate": "Đăt phòng nhanh",
-      "address": "Cầu Giấy, Hà Nội",
-      "square": "55m2",
-      "price": "820000",
-      "people": "5",
-      "info": "1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
-      "bedRoom": 3,
-      "img": "https://cdn.luxstay.com/users/329302/W0VeOXy7lNzUTRkl4Zb0CbAr.jpg"
-    },
-    {
-      "type": "",
-      "name": "",
-      "cate": "",
-      "address": "",
-      "square": "123",
-      "bedRoom": "123",
-      "price": "123",
-      "people": "120",
-      "info": "55 ",
-      "img": "https://cdn.luxstay.com/users/381488/uTgnZ95ZYdtZoEQ8kE-48iHF.jpeg",
-      "id": 2
-    },
-    {
-      "type": "",
-      "name": "JOI homestay",
-      "cate": "",
-      "address": "",
-      "square": "221",
-      "bedRoom": "12",
-      "price": "123123",
-      "people": "12",
-      "info": "khanhnv 1",
-      "img": "https://cdn.luxstay.com/rooms/37700/large/IMG_2698.jpg",
-      "id": 3
+      "firstName": "Luong",
+      "lastName": "Viet Thang",
+      "email": "thanglv@gmail.com",
+      "phone": "0989998878",
+      "password": "t1234567"
     }
   ],
   "rooms": [
     {
       "id": 1,
       "address": "Hà Nội",
-      "image_address": "https://cdn.luxstay.com/home/location/location_1_1559734709.png",
-      "content": [
-        {
-          "room_id": "HN-1",
-          "room_name": "The Galaxy Home",
-          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
-          "room_price": "850,000 đ",
-          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "55",
-          "room_star": "5"
-        },
-        {
-          "room_id": "HN-2",
-          "room_name": "Hanoi Home 3",
-          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
-          "room_price": "690,000 đ",
-          "room_address": "Tây Hồ, Hà Nội, Vietnam",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "45",
-          "room_star": "4"
-        },
-        {
-          "room_id": "HN-3",
-          "room_name": "The Galaxy Home",
-          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        },
-        {
-          "room_id": "HN-4",
-          "room_name": "The Galaxy Home",
-          "room_img": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "address": "TP. Hồ Chí Minh",
-      "image_address": "https://cdn.luxstay.com/home/location/location_5_1559735011.png",
-      "content": [
-        {
-          "room_id": "HCM-1",
-          "room_name": "The Galaxy Home",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
-          "room_price": "850,000 đ",
-          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "55",
-          "room_star": "5"
-        },
-        {
-          "room_id": "HCM-2",
-          "room_name": "Hanoi Home 3",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
-          "room_price": "690,000 đ",
-          "room_address": "Tây Hồ, Hà Nội, Vietnam",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "45",
-          "room_star": "4"
-        },
-        {
-          "room_id": "HCM-3",
-          "room_name": "The Galaxy Home",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        },
-        {
-          "room_id": "HCM-4",
-          "room_name": "The Galaxy Home",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        },
-        {
-          "room_id": "HCM-5",
-          "room_name": "The Galaxy Home",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "address": "Vũng Tàu",
-      "image_address": "https://cdn.luxstay.com/home/location/location_10_1559303118.png",
-      "content": [
-        {
-          "room_id": "VT-1",
-          "room_name": "The Galaxy Home",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
-          "room_price": "850,000 đ",
-          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "55",
-          "room_star": "5"
-        },
-        {
-          "room_id": "VT-2",
-          "room_name": "Hanoi Home 3",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
-          "room_price": "690,000 đ",
-          "room_address": "Tây Hồ, Hà Nội, Vietnam",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "45",
-          "room_star": "4"
-        },
-        {
-          "room_id": "VT-3",
-          "room_name": "The Galaxy Home",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        },
-        {
-          "room_id": "VT-4",
-          "room_name": "The Galaxy Home",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "address": "Đà Lạt",
-      "image_address": "https://cdn.luxstay.com/home/location/location_4_1559786177.png",
-      "content": [
-        {
-          "room_id": "DL-1",
-          "room_name": "The Galaxy Home",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "The Galaxy Home - 1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng",
-          "room_price": "850,000 đ",
-          "room_address": "Cầu Giấy, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "55",
-          "room_star": "5"
-        },
-        {
-          "room_id": "DL-2",
-          "room_name": "Hanoi Home 3",
-          "room_category": "Căn hộ dịch vụ - 1 phòng ngủ",
-          "room_title": "Hanoi Home 3 - Beautiful apartment for you (no. 22) - miễn phí xe đạp",
-          "room_price": "690,000 đ",
-          "room_address": "Tây Hồ, Hà Nội, Vietnam",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "45",
-          "room_star": "4"
-        },
-        {
-          "room_id": "DL-3",
-          "room_name": "The Galaxy Home",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        },
-        {
-          "room_id": "DL-4",
-          "room_name": "The Galaxy Home",
-          "room_category": "Studio - 1 phòng ngủ",
-          "room_title": "JOI homestay - căn hộ view phố,, ban công ,gần chợ đêm",
-          "room_price": "500,000 đ",
-          "room_address": "Hoàn Kiếm, Hà Nội, Vietnam ",
-          "room_detail": "· 1 Phòng tắm · 1 giường · 1 phòng ngủ · 2 khách (tối đa 3 khách)",
-          "room_acreage": "25",
-          "room_star": "4"
-        }
-      ]
+      "addressDetail":" Tây Hồ", 
+      "roomName": "The Galaxy Home",
+      "roomImg": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
+      "roomType": "Căn hộ dịch vụ",
+      "roomCate":"Đặt phòng nhanh",
+      "title": "The Galaxy Home - 1 Phòng Ngủ, 55, View Thành Phố, Ban Công",
+      "roomPrice": "850,000",
+      "info": "Căn hộ nằm ở một vị trí lý tưởng, nơi này là một con phố đông đúc của cộng đồng nước ngoài. Có rất nhiều nhà hàng, quán bar, quán cà phê, phòng tập thể dục, tất cả đều được làm cho người nước ngoài.",
+      "bedRoom": 1,
+      "bathRoom": 1,
+      "kitchen": 1,
+      "bed": 2,
+      "customer": 3,
+      "roomAcreage": 55,
+      "status": true
     }
   ]
 }
