@@ -34,6 +34,14 @@
       "phone": "0989998878",
       "password": "t1234567",
       "id": 3
+    },
+    {
+      "firstName": "Quoc",
+      "lastName": "Tien",
+      "email": "tien1@gmail.com",
+      "phone": "0987971733",
+      "password": "12345678a",
+      "id": 4
     }
   ],
   "host": [
@@ -50,11 +58,11 @@
     {
       "id": 1,
       "address": "Hà Nội",
-      "addressDetail":" Tây Hồ", 
+      "addressDetail": " Tây Hồ",
       "roomName": "The Galaxy Home",
       "roomImg": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
       "roomType": "Căn hộ dịch vụ",
-      "roomCate":"Đặt phòng nhanh",
+      "roomCate": "Đặt phòng nhanh",
       "title": "The Galaxy Home - 1 Phòng Ngủ, 55, View Thành Phố, Ban Công",
       "roomPrice": "850,000",
       "info": "Căn hộ nằm ở một vị trí lý tưởng, nơi này là một con phố đông đúc của cộng đồng nước ngoài. Có rất nhiều nhà hàng, quán bar, quán cà phê, phòng tập thể dục, tất cả đều được làm cho người nước ngoài.",
@@ -64,7 +72,26 @@
       "bed": 2,
       "customer": 3,
       "roomAcreage": 55,
-      "status": true
+      "status": 0
+    },
+    {
+      "roomType": "Nhà riêng",
+      "roomName": "Rikstay",
+      "roomCate": "Đặt phòng nhanh",
+      "address": "Hà Nội",
+      "addressDetail": "Cầu giấy",
+      "customer": "2",
+      "roomAcreage": "40",
+      "bedRoom": "1",
+      "bed": "1",
+      "bathRoom": "1",
+      "kitchen": "1",
+      "title": "Nhà riêng đỉnh cao",
+      "info": "Căn nhà nằm ở nội thành Hà Nội",
+      "roomImg": "https://cdn.luxstay.com/admins/15/Vj1Sje-3cKKUKtforaD6fpaW.png",
+      "roomPrice": "0",
+      "id": 2,
+      "status": 0
     }
   ]
 }
