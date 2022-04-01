@@ -42,6 +42,14 @@
       "phone": "0987971733",
       "password": "12345678a",
       "id": 4
+    },
+    {
+      "firstName": "Luong",
+      "lastName": "Huy",
+      "email": "tien1@gmail.com",
+      "phone": "0987971733",
+      "password": "t1234567",
+      "id": 5
     }
   ],
   "host": [
@@ -54,6 +62,43 @@
       "password": "t1234567"
     }
   ],
+  "address": [
+     {
+      "id": 1,
+      "nameAddress": "Hà Nội",
+      "img": "https://cdn.luxstay.com/home/location/location_1_1559734709.png"
+     },
+     {
+      "id": 2,
+      "nameAddress": "TP. Hồ Chí Minh",
+      "img": "https://cdn.luxstay.com/home/location/location_5_1559735011.png"
+     },
+     {
+      "id": 3,
+      "nameAddress": "Vũng Tàu",
+      "img": "https://cdn.luxstay.com/home/location/location_10_1559303118.png"
+     },
+     {
+      "id": 4,
+      "nameAddress": "Hạ Long",
+      "img": "https://cdn.luxstay.com/home/location/location_5_1559786196.png"
+     },
+     {
+      "id": 5,
+      "nameAddress": "Đà Nẵng",
+      "img": "https://cdn.luxstay.com/home/location/location_16_1559303173.png"
+     },
+     {
+      "id": 6,
+      "nameAddress": "Nha Trang",
+      "img": "https://cdn.luxstay.com/home/location/location_1_1559373089.png"
+     },
+     {
+      "id": 7,
+      "nameAddress": "Hội An",
+      "img": "https://cdn.luxstay.com/home/location/location_6_1559786202.png"
+     }
+    ],
   "rooms": [
     {
       "id": 1,
@@ -72,26 +117,108 @@
       "bed": 2,
       "customer": 3,
       "roomAcreage": 55,
-      "status": 0
+      "hostId": "1",
+      "status": 1
     },
     {
-      "roomType": "Nhà riêng",
-      "roomName": "Rikstay",
+      "roomType": "Homestay",
+      "roomName": "homestay Quoc Tien",
+      "roomCate": "Đặt phòng nhanh",
+      "address": "Đà Nẵng",
+      "addressDetail": "Lý Sơn",
+      "customer": 2,
+      "roomAcreage": "55",
+      "bedRoom": "1",
+      "bed": "1",
+      "bathRoom": "1",
+      "kitchen": "1",
+      "title": "Homestay 1 phong ngu",
+      "info": "Thien duong mat dat",
+      "roomImg": "https://cdn.luxstay.com/users/354826/kV0JTJvfJaj8wTRMvSP9sIfD.jpg",
+      "roomPrice": "0",
+      "status": 1,
+      "hostId": "1",
+      "id": 2
+    },
+    {
+      "roomType": "Chung cư",
+      "roomName": "Chung cư Quốc Tiến",
+      "roomCate": "Yêu cầu xác nhận",
+      "address": "Hạ Long",
+      "addressDetail": "Phường Hồng Hà",
+      "customer": 2,
+      "roomAcreage": "66",
+      "bedRoom": "2",
+      "bed": "2",
+      "bathRoom": "1",
+      "kitchen": "1",
+      "title": "Chung cư đỉnh cao",
+      "info": "Thien duong mat dat",
+      "roomImg": "https://cdn.luxstay.com/users/407757/BXSWxc8JJfPItWkkKpNpwqMf.jpg",
+      "roomPrice": "500000",
+      "status": 2,
+      "hostId": "1",
+      "id": 3
+    },
+    {
+      "roomType": "Biệt thự",
+      "roomName": "Biệt thự của VIệt Thắng",
       "roomCate": "Đặt phòng nhanh",
       "address": "Hà Nội",
-      "addressDetail": "Cầu giấy",
-      "customer": "2",
+      "addressDetail": "Thanh Xuân",
+      "customer": 2,
+      "roomAcreage": "1000",
+      "bedRoom": "10",
+      "bed": "10",
+      "bathRoom": "5",
+      "kitchen": "3",
+      "title": "Biệt thự đẳng cấp thế giới",
+      "info": "Thien duong mat dat",
+      "roomImg": "https://cdn.luxstay.com/rooms/37700/large/IMG_2698.jpg",
+      "roomPrice": "0",
+      "status": 0,
+      "hostId": "3",
+      "id": 6
+    },
+    {
+      "roomType": "Studio",
+      "roomName": "Studio",
+      "roomCate": "Đặt phòng nhanh",
+      "address": "Hà Nội",
+      "addressDetail": "Thanh Xuân",
+      "customer": 2,
       "roomAcreage": "40",
       "bedRoom": "1",
       "bed": "1",
       "bathRoom": "1",
       "kitchen": "1",
-      "title": "Nhà riêng đỉnh cao",
-      "info": "Căn nhà nằm ở nội thành Hà Nội",
-      "roomImg": "https://cdn.luxstay.com/admins/15/Vj1Sje-3cKKUKtforaD6fpaW.png",
+      "title": "Studio tại Hà Nội",
+      "info": "Thien duong mat dat",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
       "roomPrice": "0",
-      "id": 2,
-      "status": 0
+      "status": 0,
+      "hostId": "1",
+      "id": 7
+    },
+    {
+      "roomType": "Biệt thự",
+      "roomName": "Biệt thự của Quốc Tiến",
+      "roomCate": "Yêu cầu xác nhận",
+      "address": "Đà Nẵng",
+      "addressDetail": "Lý Sơn",
+      "customer": 2,
+      "roomAcreage": "600",
+      "bedRoom": "3",
+      "bed": "3",
+      "bathRoom": "2",
+      "kitchen": "2",
+      "title": "Biệt thự đẹp nhất Đà Nẵng",
+      "info": "Thien duong mat dat",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "roomPrice": "0",
+      "status": 0,
+      "hostId": "1",
+      "id": 8
     }
   ]
 }
