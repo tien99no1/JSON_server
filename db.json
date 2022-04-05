@@ -10,32 +10,6 @@
   ],
   "users": [
     {
-      "id": 1,
-      "firstName": "Tiến",
-      "lastName": "Đặng Quốc",
-      "email": "tien@gmail.com",
-      "password": "t1234567",
-      "phone": "0961036511",
-      "token": "fdsfdsffdsfsdfsd32442432"
-    },
-    {
-      "firstName": "Luong",
-      "lastName": "Thang",
-      "email": "thang@gmail.com",
-      "phone": "0987971733",
-      "password": "t1234567",
-      "id": 2,
-      "token": "fdsfdsffdsfsdfsd3244fdsfsd2432"
-    },
-    {
-      "firstName": "Luong",
-      "lastName": "Viet Thang",
-      "email": "thanglv@gmail.com",
-      "phone": "0989998878",
-      "password": "t1234567",
-      "id": 3
-    },
-    {
       "firstName": "Quoc",
       "lastName": "Tien",
       "email": "tien1@gmail.com",
@@ -50,6 +24,22 @@
       "phone": "0987971733",
       "password": "t1234567",
       "id": 5
+    },
+    {
+      "firstName": "khong",
+      "lastName": "co",
+      "email": "khongco@gmail.com",
+      "phone": "0961036500",
+      "password": "t1234567",
+      "id": 7
+    },
+    {
+      "id": 1,
+      "firstName": "Luong",
+      "lastName": "Viet Thang",
+      "email": "thanglv@gmail.com",
+      "phone": "0989998878",
+      "password": "t1234567"
     }
   ],
   "host": [
@@ -63,42 +53,42 @@
     }
   ],
   "address": [
-     {
+    {
       "id": 1,
       "nameAddress": "Hà Nội",
       "img": "https://cdn.luxstay.com/home/location/location_1_1559734709.png"
-     },
-     {
+    },
+    {
       "id": 2,
       "nameAddress": "TP. Hồ Chí Minh",
       "img": "https://cdn.luxstay.com/home/location/location_5_1559735011.png"
-     },
-     {
+    },
+    {
       "id": 3,
       "nameAddress": "Vũng Tàu",
       "img": "https://cdn.luxstay.com/home/location/location_10_1559303118.png"
-     },
-     {
+    },
+    {
       "id": 4,
       "nameAddress": "Hạ Long",
       "img": "https://cdn.luxstay.com/home/location/location_5_1559786196.png"
-     },
-     {
+    },
+    {
       "id": 5,
       "nameAddress": "Đà Nẵng",
       "img": "https://cdn.luxstay.com/home/location/location_16_1559303173.png"
-     },
-     {
+    },
+    {
       "id": 6,
       "nameAddress": "Nha Trang",
       "img": "https://cdn.luxstay.com/home/location/location_1_1559373089.png"
-     },
-     {
+    },
+    {
       "id": 7,
       "nameAddress": "Hội An",
       "img": "https://cdn.luxstay.com/home/location/location_6_1559786202.png"
-     }
-    ],
+    }
+  ],
   "rooms": [
     {
       "id": 1,
@@ -161,23 +151,22 @@
       "id": 3
     },
     {
-      "roomType": "Biệt thự",
-      "roomName": "Biệt thự của VIệt Thắng",
+      "roomType": "Nhà riêng",
+      "roomName": "homestay Quoc Tien",
       "roomCate": "Đặt phòng nhanh",
-      "address": "Hà Nội",
-      "addressDetail": "Thanh Xuân",
-      "customer": 2,
-      "roomAcreage": "1000",
-      "bedRoom": "10",
-      "bed": "10",
-      "bathRoom": "5",
-      "kitchen": "3",
-      "title": "Biệt thự đẳng cấp thế giới",
+      "address": "Hạ Long",
+      "addressDetail": "Phường Hồng Hải",
+      "customer": 1,
+      "roomAcreage": "55",
+      "bedRoom": "1",
+      "bed": "1",
+      "bathRoom": "1",
+      "kitchen": "1",
+      "title": "không",
+      "status": 1,
       "info": "Thien duong mat dat",
-      "roomImg": "https://cdn.luxstay.com/rooms/37700/large/IMG_2698.jpg",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
       "roomPrice": "0",
-      "status": 0,
-      "hostId": "3",
       "id": 6
     },
     {
@@ -196,28 +185,138 @@
       "info": "Thien duong mat dat",
       "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
       "roomPrice": "0",
-      "status": 0,
+      "status": 1,
       "hostId": "1",
       "id": 7
     },
     {
-      "roomType": "Biệt thự",
-      "roomName": "Biệt thự của Quốc Tiến",
+      "roomType": "Căn hộ dịch vụ",
+      "roomName": "Can ho Quoc Tien",
       "roomCate": "Yêu cầu xác nhận",
-      "address": "Đà Nẵng",
-      "addressDetail": "Lý Sơn",
-      "customer": 2,
-      "roomAcreage": "600",
-      "bedRoom": "3",
-      "bed": "3",
-      "bathRoom": "2",
-      "kitchen": "2",
-      "title": "Biệt thự đẹp nhất Đà Nẵng",
+      "address": "Hạ Long",
+      "addressDetail": "Hon Gai",
+      "customer": "2",
+      "roomAcreage": "55",
+      "bedRoom": "1",
+      "bed": "1",
+      "bathRoom": "1",
+      "kitchen": "1",
+      "title": "Can ho 1 phong ngu",
       "info": "Thien duong mat dat",
       "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "roomPrice": "0",
+      "roomPrice": "1",
       "status": 0,
+      "hostId": "5",
+      "id": 9
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "userId": 4,
       "hostId": "1",
+      "roomId": 9,
+      "roomName": "Can ho Quoc Tien",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "Adults": 1,
+      "children": 1,
+      "totalCustomers": 2,
+      "startDay": "05/04/2022",
+      "endDay": "10/04/2022"
+    },
+    {
+      "roomId": 1,
+      "hostId": "1",
+      "userId": "1",
+      "totalCustomers": 2,
+      "roomName": "The Galaxy Home",
+      "roomImg": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
+      "alduts": "1",
+      "children": "1",
+      "startDay": "2022-04-04T17:00:00.000Z",
+      "endDay": "2022-04-06T17:00:00.000Z",
+      "status": 0,
+      "id": 2
+    },
+    {
+      "roomId": 6,
+      "userId": "1",
+      "totalCustomers": 2,
+      "roomName": "homestay Quoc Tien",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "alduts": "1",
+      "children": "1",
+      "startDay": "2022-04-05T17:00:00.000Z",
+      "endDay": "2022-04-07T17:00:00.000Z",
+      "status": 0,
+      "id": 3
+    },
+    {
+      "roomId": 6,
+      "userId": "1",
+      "totalCustomers": 2,
+      "roomName": "homestay Quoc Tien",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "alduts": "1",
+      "children": "1",
+      "startDay": "2022-04-05T17:00:00.000Z",
+      "endDay": "2022-04-07T17:00:00.000Z",
+      "status": 0,
+      "id": 4
+    },
+    {
+      "roomId": 6,
+      "userId": "1",
+      "totalCustomers": 2,
+      "roomName": "homestay Quoc Tien",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "alduts": "2",
+      "children": 0,
+      "startDay": "2022-04-13T17:00:00.000Z",
+      "endDay": "2022-04-30T17:00:00.000Z",
+      "status": 0,
+      "id": 5
+    },
+    {
+      "roomId": 7,
+      "hostId": "1",
+      "userId": "1",
+      "totalCustomers": 3,
+      "roomName": "Studio",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "alduts": "1",
+      "children": "2",
+      "startDay": "2022-04-06T17:00:00.000Z",
+      "endDay": "2022-04-13T17:00:00.000Z",
+      "status": 0,
+      "id": 6
+    },
+    {
+      "roomId": 7,
+      "hostId": "1",
+      "userId": "1",
+      "totalCustomers": 3,
+      "roomName": "Studio",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "alduts": "0",
+      "children": "3",
+      "startDay": "2022-04-20T17:00:00.000Z",
+      "endDay": "2022-04-21T17:00:00.000Z",
+      "status": 0,
+      "id": 7
+    },
+    {
+      "roomId": 7,
+      "hostId": "1",
+      "userId": "1",
+      "totalCustomers": 3,
+      "roomName": "Studio",
+      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
+      "alduts": "2",
+      "children": "1",
+      "startDay": "2022-04-20T17:00:00.000Z",
+      "endDay": "2022-04-21T17:00:00.000Z",
+      "status": 0,
       "id": 8
     }
   ]
