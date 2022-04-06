@@ -2,10 +2,9 @@
   "admin": [
     {
       "id": 1,
-      "firstName": "admin",
-      "lastName": "admin",
+      "name": "admin",
       "email": "admin@gmail.com",
-      "password": "t12345678"
+      "password": "t1234567"
     }
   ],
   "users": [
@@ -14,7 +13,7 @@
       "lastName": "Tien",
       "email": "tien1@gmail.com",
       "phone": "0987971733",
-      "password": "12345678a",
+      "password": "T1234567",
       "id": 4
     },
     {
@@ -108,6 +107,7 @@
       "customer": 3,
       "roomAcreage": 55,
       "hostId": "1",
+      "isCheckRoom": false,
       "status": 1
     },
     {
@@ -127,6 +127,7 @@
       "roomImg": "https://cdn.luxstay.com/users/354826/kV0JTJvfJaj8wTRMvSP9sIfD.jpg",
       "roomPrice": "0",
       "status": 1,
+      "isCheckRoom": false,
       "hostId": "1",
       "id": 2
     },
@@ -140,6 +141,7 @@
       "roomAcreage": "66",
       "bedRoom": "2",
       "bed": "2",
+      "isCheckRoom": false,
       "bathRoom": "1",
       "kitchen": "1",
       "title": "Chung cư đỉnh cao",
@@ -160,6 +162,7 @@
       "roomAcreage": "55",
       "bedRoom": "1",
       "bed": "1",
+      "isCheckRoom": false,
       "bathRoom": "1",
       "kitchen": "1",
       "title": "không",
@@ -178,6 +181,7 @@
       "customer": 2,
       "roomAcreage": "40",
       "bedRoom": "1",
+      "isCheckRoom": false,
       "bed": "1",
       "bathRoom": "1",
       "kitchen": "1",
@@ -199,6 +203,7 @@
       "roomAcreage": "55",
       "bedRoom": "1",
       "bed": "1",
+      "isCheckRoom": false,
       "bathRoom": "1",
       "kitchen": "1",
       "title": "Can ho 1 phong ngu",
@@ -212,86 +217,6 @@
   ],
   "booking": [
     {
-      "id": 1,
-      "userId": 4,
-      "hostId": "1",
-      "roomId": 9,
-      "roomName": "Can ho Quoc Tien",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "Adults": 1,
-      "children": 1,
-      "totalCustomers": 2,
-      "startDay": "05/04/2022",
-      "endDay": "10/04/2022"
-    },
-    {
-      "roomId": 1,
-      "hostId": "1",
-      "userId": "1",
-      "totalCustomers": 2,
-      "roomName": "The Galaxy Home",
-      "roomImg": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
-      "alduts": "1",
-      "children": "1",
-      "startDay": "2022-04-04T17:00:00.000Z",
-      "endDay": "2022-04-06T17:00:00.000Z",
-      "status": 0,
-      "id": 2
-    },
-    {
-      "roomId": 6,
-      "userId": "1",
-      "totalCustomers": 2,
-      "roomName": "homestay Quoc Tien",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "alduts": "1",
-      "children": "1",
-      "startDay": "2022-04-05T17:00:00.000Z",
-      "endDay": "2022-04-07T17:00:00.000Z",
-      "status": 0,
-      "id": 3
-    },
-    {
-      "roomId": 6,
-      "userId": "1",
-      "totalCustomers": 2,
-      "roomName": "homestay Quoc Tien",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "alduts": "1",
-      "children": "1",
-      "startDay": "2022-04-05T17:00:00.000Z",
-      "endDay": "2022-04-07T17:00:00.000Z",
-      "status": 0,
-      "id": 4
-    },
-    {
-      "roomId": 6,
-      "userId": "1",
-      "totalCustomers": 2,
-      "roomName": "homestay Quoc Tien",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "alduts": "2",
-      "children": 0,
-      "startDay": "2022-04-13T17:00:00.000Z",
-      "endDay": "2022-04-30T17:00:00.000Z",
-      "status": 0,
-      "id": 5
-    },
-    {
-      "roomId": 7,
-      "hostId": "1",
-      "userId": "1",
-      "totalCustomers": 3,
-      "roomName": "Studio",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "alduts": "1",
-      "children": "2",
-      "startDay": "2022-04-06T17:00:00.000Z",
-      "endDay": "2022-04-13T17:00:00.000Z",
-      "status": 0,
-      "id": 6
-    },
-    {
       "roomId": 7,
       "hostId": "1",
       "userId": "1",
@@ -299,25 +224,42 @@
       "roomName": "Studio",
       "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
       "alduts": "0",
+      "user": "Viet Thang",
       "children": "3",
-      "startDay": "2022-04-20T17:00:00.000Z",
-      "endDay": "2022-04-21T17:00:00.000Z",
-      "status": 0,
+      "startDay": "14/04/2022",
+      "endDay": "16/04/2022",
+      "isCheck": 1,
       "id": 7
     },
     {
       "roomId": 7,
       "hostId": "1",
       "userId": "1",
+      "user": "Viet Thang",
       "totalCustomers": 3,
       "roomName": "Studio",
       "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
       "alduts": "2",
       "children": "1",
-      "startDay": "2022-04-20T17:00:00.000Z",
-      "endDay": "2022-04-21T17:00:00.000Z",
-      "status": 0,
+      "startDay": "11/04/2022",
+      "endDay": "13/04/2022",
+      "isCheck": 2,
       "id": 8
+    },
+    {
+      "roomId": 2,
+      "hostId": "1",
+      "userId": "1",
+      "totalCustomers": 2,
+      "user": "Viet Thang",
+      "roomName": "homestay Quoc Tien",
+      "roomImg": "https://cdn.luxstay.com/users/354826/kV0JTJvfJaj8wTRMvSP9sIfD.jpg",
+      "alduts": "1",
+      "children": "1",
+      "startDay": "07/04/2022",
+      "endDay": "09/04/2022",
+      "isCheck": 1,
+      "id": 9
     }
   ]
 }
