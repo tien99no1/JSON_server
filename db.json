@@ -25,14 +25,6 @@
       "id": 5
     },
     {
-      "firstName": "khong",
-      "lastName": "co",
-      "email": "khongco@gmail.com",
-      "phone": "0961036500",
-      "password": "t1234567",
-      "id": 7
-    },
-    {
       "id": 1,
       "firstName": "Luong",
       "lastName": "Viet Thang",
@@ -126,7 +118,7 @@
       "info": "Thien duong mat dat",
       "roomImg": "https://cdn.luxstay.com/users/354826/kV0JTJvfJaj8wTRMvSP9sIfD.jpg",
       "roomPrice": "0",
-      "status": 1,
+      "status": 0,
       "isCheckRoom": false,
       "hostId": "1",
       "id": 2
@@ -148,7 +140,7 @@
       "info": "Thien duong mat dat",
       "roomImg": "https://cdn.luxstay.com/users/407757/BXSWxc8JJfPItWkkKpNpwqMf.jpg",
       "roomPrice": "500000",
-      "status": 2,
+      "status": 1,
       "hostId": "1",
       "id": 3
     },
@@ -181,7 +173,7 @@
       "customer": 2,
       "roomAcreage": "40",
       "bedRoom": "1",
-      "isCheckRoom": false,
+      "isCheckRoom": true,
       "bed": "1",
       "bathRoom": "1",
       "kitchen": "1",
@@ -192,27 +184,6 @@
       "status": 1,
       "hostId": "1",
       "id": 7
-    },
-    {
-      "roomType": "Căn hộ dịch vụ",
-      "roomName": "Can ho Quoc Tien",
-      "roomCate": "Yêu cầu xác nhận",
-      "address": "Hạ Long",
-      "addressDetail": "Hon Gai",
-      "customer": "2",
-      "roomAcreage": "55",
-      "bedRoom": "1",
-      "bed": "1",
-      "isCheckRoom": false,
-      "bathRoom": "1",
-      "kitchen": "1",
-      "title": "Can ho 1 phong ngu",
-      "info": "Thien duong mat dat",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "roomPrice": "1",
-      "status": 0,
-      "hostId": "5",
-      "id": 9
     }
   ],
   "booking": [
@@ -243,7 +214,7 @@
       "children": "1",
       "startDay": "11/04/2022",
       "endDay": "13/04/2022",
-      "isCheck": 2,
+      "isCheck": 1,
       "id": 8
     },
     {
@@ -258,7 +229,7 @@
       "children": "1",
       "startDay": "07/04/2022",
       "endDay": "09/04/2022",
-      "isCheck": 1,
+      "isCheck": 2,
       "id": 9
     }
   ]
