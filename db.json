@@ -18,19 +18,27 @@
     },
     {
       "firstName": "Luong",
-      "lastName": "Huy",
-      "email": "tien1@gmail.com",
-      "phone": "0987971733",
+      "lastName": "Thang Viet",
+      "email": "thanglv@gmail.com",
+      "phone": "0961036501",
       "password": "t1234567",
-      "id": 5
+      "id": 1
     },
     {
-      "id": 1,
-      "firstName": "Luong",
-      "lastName": "Viet Thang",
-      "email": "thanglv@gmail.com",
-      "phone": "0989998878",
-      "password": "t1234567"
+      "firstName": "sang",
+      "lastName": "xuan",
+      "email": "sangxuan@gmail.com",
+      "phone": "0961036502",
+      "password": "t1234567",
+      "id": 8
+    },
+    {
+      "firstName": "Quoc",
+      "lastName": "Huy",
+      "email": "tien@gmail.com",
+      "phone": "0961036500",
+      "password": "t1234567",
+      "id": 9
     }
   ],
   "host": [
@@ -99,7 +107,7 @@
       "customer": 3,
       "roomAcreage": 55,
       "hostId": "1",
-      "isCheckRoom": false,
+      "isCheckRoom": true,
       "status": 1
     },
     {
@@ -118,7 +126,7 @@
       "info": "Thien duong mat dat",
       "roomImg": "https://cdn.luxstay.com/users/354826/kV0JTJvfJaj8wTRMvSP9sIfD.jpg",
       "roomPrice": "0",
-      "status": 0,
+      "status": 1,
       "isCheckRoom": false,
       "hostId": "1",
       "id": 2
@@ -143,26 +151,6 @@
       "status": 1,
       "hostId": "1",
       "id": 3
-    },
-    {
-      "roomType": "Nhà riêng",
-      "roomName": "homestay Quoc Tien",
-      "roomCate": "Đặt phòng nhanh",
-      "address": "Hạ Long",
-      "addressDetail": "Phường Hồng Hải",
-      "customer": 1,
-      "roomAcreage": "55",
-      "bedRoom": "1",
-      "bed": "1",
-      "isCheckRoom": false,
-      "bathRoom": "1",
-      "kitchen": "1",
-      "title": "không",
-      "status": 1,
-      "info": "Thien duong mat dat",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "roomPrice": "0",
-      "id": 6
     },
     {
       "roomType": "Studio",
@@ -200,22 +188,10 @@
       "startDay": "14/04/2022",
       "endDay": "16/04/2022",
       "isCheck": 1,
-      "id": 7
-    },
-    {
-      "roomId": 7,
-      "hostId": "1",
-      "userId": "1",
-      "user": "Viet Thang",
-      "totalCustomers": 3,
-      "roomName": "Studio",
-      "roomImg": "https://cdn.luxstay.com/users/37752/AQ6iIGB9J_kOuNEpqQuGV6Uk.jpg",
-      "alduts": "2",
-      "children": "1",
-      "startDay": "11/04/2022",
-      "endDay": "13/04/2022",
-      "isCheck": 1,
-      "id": 8
+      "id": 7,
+      "roomAddress": "Hà Nội",
+      "roomAddressDetail": "Thanh Xuân",
+      "status": 0
     },
     {
       "roomId": 2,
@@ -230,7 +206,64 @@
       "startDay": "07/04/2022",
       "endDay": "09/04/2022",
       "isCheck": 2,
-      "id": 9
+      "id": 9,
+      "roomAddress": "Đà Nẵng",
+      "roomAddressDetail": "Lý Sơn",
+      "status": 0
+    },
+    {
+      "roomId": 1,
+      "user": "Huy",
+      "hostId": "1",
+      "userId": "9",
+      "totalCustomers": 2,
+      "roomName": "The Galaxy Home",
+      "roomAddress": "Hà Nội",
+      "roomAddressDetail": " Tây Hồ",
+      "roomImg": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
+      "alduts": "0",
+      "children": "2",
+      "startDay": "09/05/2022",
+      "endDay": "10/05/2022",
+      "isCheck": 1,
+      "status": 0,
+      "id": 14
+    },
+    {
+      "roomId": 1,
+      "user": "Huy",
+      "hostId": "1",
+      "userId": "9",
+      "totalCustomers": 2,
+      "roomName": "The Galaxy Home",
+      "roomAddress": "Hà Nội",
+      "roomAddressDetail": " Tây Hồ",
+      "roomImg": "https://cdn.luxstay.com/admins/12/2TR6G7u6ua140zR2NI4yUJdG.png",
+      "alduts": "1",
+      "children": "1",
+      "startDay": "17/05/2022",
+      "endDay": "18/05/2022",
+      "isCheck": 0,
+      "status": 0,
+      "id": 15
+    },
+    {
+      "roomId": 2,
+      "user": "Huy",
+      "hostId": "1",
+      "userId": "9",
+      "totalCustomers": 2,
+      "roomName": "homestay Quoc Tien",
+      "roomAddress": "Đà Nẵng",
+      "roomAddressDetail": "Lý Sơn",
+      "roomImg": "https://cdn.luxstay.com/users/354826/kV0JTJvfJaj8wTRMvSP9sIfD.jpg",
+      "alduts": "1",
+      "children": "1",
+      "startDay": "13/04/2022",
+      "endDay": "15/04/2022",
+      "isCheck": 0,
+      "status": 0,
+      "id": 17
     }
   ]
 }
