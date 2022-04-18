@@ -41,16 +41,6 @@
       "id": 13
     }
   ],
-  "host": [
-    {
-      "id": 1,
-      "firstName": "Luong",
-      "lastName": "Viet Thang",
-      "email": "thanglv@gmail.com",
-      "phone": "0989998878",
-      "password": "t1234567"
-    }
-  ],
   "address": [
     {
       "id": 1,
